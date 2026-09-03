@@ -1,1 +1,0 @@
-# H1H024037_Praktikum-Internet-of-Things
