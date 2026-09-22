@@ -143,8 +143,11 @@ Percobaan kedua adalah mengirim data berisikan suhu dan kelembapan yang sudah di
 ![alt text](<SerialMonitor3B.png>)
 *Gamber 3.3. Serial Monitor saat Pengiriman Data*
 
+![alt text](<hivemq.png>)
+*Gamber 3.4. Log / History Broker HiveMQ*
+
 ![alt text](<percobaan3b.gif>)
-*Gamber 3.4. Log / History melakukan Pencatatan Pengiriman pada Broker HiveMQ*
+*Gamber 3.5. Log / History melakukan Pencatatan Pengiriman pada Broker HiveMQ*
 
 ```C++
 #include <ESP8266WiFi.h>
