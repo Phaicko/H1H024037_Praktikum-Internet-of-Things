@@ -191,15 +191,19 @@ Percobaan ini mencakup akuisisi data melalui MQTT, analisis statistik dengan Pyt
 ## Dokumentasi Percobaan 5B
 
 ![Serial Monitor ESP8266 menampilkan data suhu DHT11 dalam format JSON](SerialMonitor5-2.png)
+
 _Gambar 5.2. Serial Monitor ESP8266 menampilkan data suhu DHT11 dalam format JSON yang dikirim ke broker MQTT._
 
 ![Terminal Python terhubung ke broker MQTT dan menerima data suhu](pyterminal1.png)
+
 _Gambar 5.3. Terminal Python terhubung ke broker MQTT dan menerima data suhu hingga 12 dari 30 sampel._
 
 ![Terminal Python menampilkan statistik untuk 30 sampel suhu](pyterminal2.png)
+
 _Gambar 5.4. Terminal Python menampilkan ringkasan 30 sampel: rata-rata 27,03 °C, simpangan baku 0,25, suhu minimum 26,70 °C, suhu maksimum 27,60 °C, dan 2 anomali._
 
 ![Grafik suhu asli dan anomali yang terdeteksi dengan metode Z-score](grafik_suhu.png)
+
 _Gambar 5.5. Grafik 30 sampel suhu asli; titik merah menandai data yang terdeteksi sebagai anomali menggunakan metode Z-score._
 
 ### Program ESP8266
